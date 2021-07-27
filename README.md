@@ -14,7 +14,7 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 - Minimal as possible
 - Highly customizable
 - No systemd (elogind or any part from it)
-- No hugh software like Gnome
+- No huge software like Gnome
 - Community participating
 
 ## Links
