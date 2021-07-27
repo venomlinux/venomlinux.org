@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Welcome Venom Linux
 
-You can use the [editor on GitHub](https://github.com/venomlinux/venomlinux.org/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Venom Linux is a lightweight source-based linux distribution targetting experienced users.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![screenshot-20210312.png](https://i.postimg.cc/hPW7rSwq/screenshot-20210312.png)](https://postimg.cc/z37BD18d)
 
-### Markdown
+## Download
+- https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso
+- https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Goal
+- Minimal as possible
+- Highly customizable
+- No systemd (elogind or any part from it)
+- No hugh software like Gnome
+- Community participating
 
-```markdown
-Syntax highlighted code block
+## Links
+Telegram group: https://t.me/venomlinux
 
-# Header 1
-## Header 2
-### Header 3
+Forum: https://forum.venomlinux.org
 
-- Bulleted
-- List
+Bugs/Issues: https://github.com/venomlinux/ports/issues
 
-1. Numbered
-2. List
+Wiki: https://github.com/venomlinux/ports/wiki
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## Contact
+email: emmett1.2miligrams@gmail.com
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+github: https://github.com/emmett1
 
-### Jekyll Themes
+## Donate
+Venom Linux is non profitable project for linux community, if you like this project and want to support me you can make donation so I can keep this project going
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/venomlinux/venomlinux.org/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+https://www.buymeacoffee.com/venomlinux
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+https://paypal.me/syazwanemmett
