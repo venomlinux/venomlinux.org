@@ -8,7 +8,9 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 
 ## Download
 - [https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso)
+- [https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz](https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz)
 - [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso)
+- [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz)
 
 ## Goal
 - Minimal as possible
@@ -34,6 +36,6 @@ github: [https://github.com/emmett1](https://github.com/emmett1)
 ## Donate
 Venom Linux is non profitable project for linux community, if you like this project and want to support me you can make donation so I can keep this project going.
 
-buymeacoffee: [https://www.buymeacoffee.com/venomlinux](mailto: https://www.buymeacoffee.com/venomlinux)
+buymeacoffee: [https://www.buymeacoffee.com/venomlinux](https://www.buymeacoffee.com/venomlinux)
 
 paypal: [https://paypal.me/syazwanemmett](https://paypal.me/syazwanemmett)
