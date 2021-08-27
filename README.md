@@ -6,6 +6,8 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 
 [![screenshot-20210312.png](https://i.postimg.cc/hPW7rSwq/screenshot-20210312.png)](https://postimg.cc/z37BD18d)
 
+**[Ports Search](https://github.com/venomlinux/ports/blob/2.1/scripts/ports.csv)**
+
 ## Download
 - [https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso)
 - [https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz](https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz)
@@ -29,7 +31,7 @@ Bugs/Issues: [https://github.com/venomlinux/ports/issues](https://github.com/ven
 Wiki: [https://github.com/venomlinux/ports/wiki](https://github.com/venomlinux/ports/wiki)
 
 ## Contact
-email: <a href = "mailto: emmett1.2miligrams@gmail.com">emmett1.2miligrams@gmail.com</a>
+email: <a href = "mailto: emmett1.2miligrams@protonmail.com">emmett1.2miligrams@protonmail.com</a>
 
 github: [https://github.com/emmett1](https://github.com/emmett1)
 
