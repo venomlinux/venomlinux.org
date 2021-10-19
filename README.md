@@ -8,11 +8,27 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 
 **[Ports Search](https://github.com/venomlinux/ports/blob/2.1/scripts/ports.csv)**
 
+## Announcement
+```
+[19th October 2021]
+- Release Candidate ISO for v3.0 is released.
+- Some ports might broken or won't build.
+- Please open issue for any bugs.
+- Any fixes and improvement are very welcomed, just open PR for your changes.
+```
+
 ## Download
+### 2.1
 - [https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso)
 - [https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz](https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz)
 - [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso)
 - [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz)
+
+### 3.0-RC1
+- [https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso)
+- [https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-3.0-RC1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-3.0-RC1-x86_64.iso)
+- [https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz](https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz)
+- [https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz](https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz)
 
 ## Goal
 - Minimal as possible
