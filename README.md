@@ -27,7 +27,6 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 ### 3.0-RC1
 - [https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso)
 - [https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-3.0-RC1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-3.0-RC1-x86_64.iso)
-- [https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz](https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz)
 - [https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz](https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz)
 
 ## Goal
