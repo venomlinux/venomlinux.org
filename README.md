@@ -2,14 +2,18 @@
 
 Venom Linux is a lightweight source-based linux distribution targetting experienced users.
 
-**Current release: 2.1**
+**Current release: 3.0**
 
 [![screenshot-20210312.png](https://i.postimg.cc/hPW7rSwq/screenshot-20210312.png)](https://postimg.cc/z37BD18d)
 
-**[Ports Search](https://github.com/venomlinux/ports/blob/2.1/scripts/ports.csv)**
+**[Ports Search](https://github.com/venomlinux/ports/blob/3.0/scripts/ports.csv)**
 
 ## Announcement
 ```
+[12nd November 2021]
+- Venom Linux 3.0 iso is released.
+- 3.0-RC1 user can migrate it by manually changing version in `/etc/scratchpkg.repo`, `/etc/os-release`, and `/etc/venom-release`.
+
 [19th October 2021]
 - Release Candidate ISO for v3.0 is released.
 - Some ports might broken or won't build.
@@ -18,15 +22,10 @@ Venom Linux is a lightweight source-based linux distribution targetting experien
 ```
 
 ## Download
-### 2.1
-- [https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-2.1-x86_64.iso)
-- [https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz](https://osdn.net/dl/venomlinux/venomlinux-rootfs-2.1-x86_64.tar.xz)
-- [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-2.1-x86_64.iso)
-- [https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz](https://sourceforge.net/projects/venomlinux/files/2.0/venomlinux-rootfs-2.1-x86_64.tar.xz)
-
-### 3.0-RC1
-- [https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-3.0-RC1-x86_64.iso)
-- [https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-3.0-RC1-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/3.0-RC1/venomlinux-3.0-RC1-x86_64.iso)
+### 3.0
+- [https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64.iso](https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64.iso)
+- [https://osdn.net/dl/venomlinux/venomlinux-rootfs-3.0-x86_64.tar.xz](https://osdn.net/dl/venomlinux/venomlinux-rootfs-3.0-x86_64.tar.xz)
+- [https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64.iso](https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64.iso)
 - [https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz](https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz)
 
 ## Goal
