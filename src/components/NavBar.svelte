@@ -34,13 +34,13 @@
                     >
                     <Link
                         to="downloads"
-                        class={location === "/downloads"
+                        class={location === "downloads"
                             ? active_link
                             : non_active_link}>Downloads</Link
                     >
                     <Link
                         to="wiki"
-                        class={location === "/wiki"
+                        class={location === "wiki"
                             ? active_link
                             : non_active_link}
                     >
@@ -60,13 +60,13 @@
                 >
                 <Link
                     to="downloads"
-                    class={location === "/downloads"
+                    class={location === "downloads"
                         ? active_link_mobile
                         : non_active_link_mobile}>Downloads</Link
                 >
                 <Link
                     to="wiki"
-                    class={location === "/wiki"
+                    class={location === "wiki"
                         ? active_link_mobile
                         : non_active_link_mobile}
                 >
