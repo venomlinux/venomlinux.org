@@ -7,10 +7,7 @@
 	import Wiki from "./routes/Wiki.svelte";
 	import NavBar from "./components/NavBar.svelte";
 	import Footer from "./components/Footer.svelte";
-	const isGithubPages = false; // put it in true when you are deploying to a github pages URL
-	const webpageGithub = "venom-page";
 	export let url: string;
-	let basepath = isGithubPages ? `/${webpageGithub}/` : "";
 </script>
 
 <svelte:head />
@@ -19,7 +16,7 @@
 <main>
 	<div class="flex flex-col h-screen">
 		<div class="flex-grow">
-			<Router {url} {basepath}>
+			<Router {url} >
 				<NavBar />
 				<div class="mt-6">
 					<Route path="/" component={Home} />
