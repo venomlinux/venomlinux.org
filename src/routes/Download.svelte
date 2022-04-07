@@ -40,9 +40,9 @@
                 </div>
             </div>
             <div
-                class="-mx-4 mt-10 ring-1 ring-gray-300 dark:ring-white sm:-mx-6 md:mx-0 md:rounded-lg"
+                class="-mx-4 mt-10 ring-1 ring-gray-300 dark:ring-white sm:-mx-6 md:mx-0 md:rounded-lg  "
             >
-                <table class="min-w-full divide-y divide-gray-300 mb-2">
+                <table class="min-w-full divide-y divide-gray-300 mb-2  ">
                     <thead>
                         <tr>
                             <th
@@ -59,6 +59,11 @@
                                 scope="col"
                                 class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white"
                                 >Type</th
+                            >
+                            <th
+                                scope="col"
+                                class="px-3 hidden md:table-cell  py-3.5 text-left text-sm font-semibold text-gray-900 dark:text-white"
+                                >MD5</th
                             >
                             <th
                                 scope="col"
@@ -94,7 +99,11 @@
                                             )}</td
                                         >
                                         <td
-                                            class="relative py-3.5 pl-3 pr-4 sm:pr-6 text-right text-sm font-medium"
+                                            class="hidden md:table-cell px-3 py-3.5 text-xs text-gray-500 dark:text-gray-50 lg:table-cell truncate"
+                                            >{mirror.md5}</td
+                                        >
+                                        <td
+                                            class=" py-3.5 pl-3 pr-4 sm:pr-6 text-right text-sm font-medium"
                                         >
                                             <button
                                                 disabled={mirror.disabled}

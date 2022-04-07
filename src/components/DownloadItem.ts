@@ -15,10 +15,12 @@ export class DownloadItemMirror {
     page: string;
     url: string;
     disabled: boolean;
-    constructor(type: DownloadItemType = DownloadItemType.live_cd, page:string = "", url: string = "" , disabled: boolean = false) {
+    md5: string;
+    constructor(type: DownloadItemType = DownloadItemType.live_cd, page:string = "", url: string = "" , disabled: boolean = false, md5: string = "") {
         this.download_type = type;
         this.page = page;
         this.url = url;
         this.disabled = disabled;
+        this.md5 = md5;
     }
 }

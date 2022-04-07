@@ -59,7 +59,7 @@
 
 <div
   id="viewer"
-  class="markdown-body line-numbers prose dark:prose-invert prose-img:rounded-md prose-img:shadow-md prose-img:inline scroll-smooth motion-safe:scroll-auto "
+  class="markdown-body line-numbers prose dark:prose-invert prose-img:rounded-md prose-img:shadow-md prose-img:inline scroll-smooth motion-safe:scroll-auto px-4 md:px-0 "
 >
   {@html html}
 </div>

@@ -6,19 +6,22 @@
                 "download_type": "live_cd",
                 "page": "OSDN",
                 "url": "https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64.iso",
-                "disabled": false
+                "disabled": false,
+                "md5": "11d8a3840a725e8b786b1ed9dc1074fe"
             },
             {
                 "download_type": "live_cd",
                 "page": "Sourceforge",
                 "url": "https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64.iso",
-                "disabled": false
+                "disabled": false,
+                "md5": "11d8a3840a725e8b786b1ed9dc1074fe"
             },
             {
                 "download_type": "rootfs",
                 "page": "Github",
                 "url": "https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz",
-                "disabled": false
+                "disabled": false,
+                "md5": "11d8a3840a725e8b786b1ed9dc1074fe"
             }
         ]
     }

@@ -116,7 +116,9 @@ function createWiki() {
 			toch1 = toch1 ? toch1.map(x => x.replace(/<h1.*?>/, '').replace(/<\/h1>/, '')) : [];
 			var toch2 = marked.parse(content).match(/<h2.*?>(.*?)<\/h2>/g);
 			toch2 = toch2 ? toch2.map(x => x.replace(/<h2.*?>/, '').replace(/<\/h2>/, '')) : [];
-			var toc = toch1.concat(toch2);
+			var toch3 = marked.parse(content).match(/<h3.*?>(.*?)<\/h3>/g);
+			toch3 = toch3 ? toch3.map(x => x.replace(/<h3.*?>/, '').replace(/<\/h3>/, '')) : [];
+			var toc = toch1.concat(toch2).concat(toch3);
 			const url = `data/wiki/${name}.md`;
 			wiki.push({ title, url, toc });
 		}
