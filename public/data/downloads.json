@@ -17,7 +17,7 @@
             {
                 "download_type": "rootfs",
                 "page": "Github",
-                "url": "https://github.com/venomlinux/ports/releases/download/v3.0-RC1/venomlinux-rootfs-3.0-RC1-x86_64.tar.xz",
+                "url": "https://github.com/venomlinux/ports/releases/download/v3.0/venomlinux-rootfs-3.0-x86_64.tar.xz",
                 "disabled": false
             }
         ]
