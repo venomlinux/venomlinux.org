@@ -5,13 +5,13 @@
             {
                 "download_type": "live_cd",
                 "page": "OSDN",
-                "url": "https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64.iso",
+                "url": "https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64-20220627.iso",
                 "disabled": false
             },
             {
                 "download_type": "live_cd",
                 "page": "Sourceforge",
-                "url": "https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64.iso",
+                "url": "https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64-20220627.iso",
                 "disabled": false
             },
             {
