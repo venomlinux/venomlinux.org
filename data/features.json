@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Minimal",
+        "goal": "Minimal as possible"
+    },
+    {
+        "title": "Customizable",
+        "goal": "Highly customizable"
+    },
+    {
+        "title": "No use of SystemD",
+        "goal": "No systemd (elogind or any part from it)"
+    },
+    {
+        "title": "Centered Around smaller software",
+        "goal": "That means the lack of huge software like Gnome"
+    },
+    {
+        "title": "Community Driven",
+        "goal": "The Community is part of the process of building Venom"
+    }
+]
