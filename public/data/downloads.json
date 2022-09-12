@@ -5,19 +5,19 @@
             {
                 "download_type": "live_cd",
                 "page": "OSDN",
-                "url": "https://osdn.net/dl/venomlinux/venomlinux-3.0-x86_64-20220627.iso",
+                "url": "https://osdn.net/dl/venomlinux/venomlinux-4.0-x86_64-20220912.iso",
                 "disabled": false
             },
             {
                 "download_type": "live_cd",
                 "page": "Sourceforge",
-                "url": "https://sourceforge.net/projects/venomlinux/files/3.0/venomlinux-3.0-x86_64-20220627.iso",
+                "url": "https://sourceforge.net/projects/venomlinux/files/4.0/venomlinux-4.0-x86_64-20220912.iso",
                 "disabled": false
             },
             {
                 "download_type": "rootfs",
                 "page": "Github",
-                "url": "https://github.com/venomlinux/ports/releases/download/v3.0/venomlinux-rootfs-3.0-x86_64.tar.xz",
+                "url": "https://github.com/venomlinux/ports/releases/download/v4.0/venomlinux-rootfs-4.0-x86_64.tar.xz",
                 "disabled": false
             }
         ]
