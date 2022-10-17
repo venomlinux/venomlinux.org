@@ -80,12 +80,19 @@ then create a password for your user:
 ```
 
 Configure the bootloader, GNU `grub`:
+* Bios
 ```
 # grub-install /dev/sdX
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
 > Note: replace 'X' with your partition drive
 
+* EFI
+```
+# grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="venomlinux"
+# grub-mkconfig -o /boot/grub/grub.cfg
+```
+ 
 Exit chroot environment:
 ```
 # exit
