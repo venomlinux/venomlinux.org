@@ -79,6 +79,21 @@ then create a password for your user:
 # passwd <your user>
 ```
 
+Kernel installation:
+* Sync repositories:
+```
+# scratch sync
+```
+* Upgrade system:
+```
+# scratch sysup
+```
+* Kernel installation:
+```
+# scratch install linux
+```
+> Note: replace 'linux' with 'linux-lts' if you want to use the lts version
+
 Configure the bootloader, GNU `grub`:
 * Bios
 ```
