@@ -1,4 +1,15 @@
 [
+    {   
+        "date": "13/09/2022",
+        "publisher": "Venom Linux",
+        "title": "Release Information",
+        "announcement": [
+            "Venom Linux 4.0 iso is released.",
+	    "- Please open issue for any bugs.",
+            "- Any fixes and improvement are very welcomed, just open PR for your changes."
+        ]
+    },
+    
     {
         "date": "12/11/2021",
         "publisher": "Venom Linux",
@@ -6,17 +17,6 @@
         "announcement": [
             "- Venom Linux 3.0 iso is released",
             "- 3.0-RC1 user can migrate it by manually changing version in `/etc/scratchpkg.repo`, `/etc/os-release`, and `/etc/venom-release`."
-        ]
-    },
-    {
-        "date": "19/10/2021",
-        "publisher": "Venom Linux",
-        "title": "Release information",
-        "announcement": [
-            "- Release Candidate ISO for v3.0 is released.",
-            "- Some ports might broken or won't build.",
-            "- Please open issue for any bugs.",
-            "- Any fixes and improvement are very welcomed, just open PR for your changes."
         ]
     }
 ]
