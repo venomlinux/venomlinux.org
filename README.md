@@ -2,9 +2,9 @@
 
 Venom Linux is a lightweight source-based linux distribution targetting experienced users.
 
-**Current release: 3.0**
+**Current release: 4.0**
 
-[![screenshot-20210312.png](https://i.postimg.cc/hPW7rSwq/screenshot-20210312.png)](https://postimg.cc/z37BD18d)
+[![2022-10-19-090222-1366x768-scrot.png)](https://i.postimg.cc/wvXqZKMw/2022-10-19-090222-1366x768-scrot.png)](https://postimg.cc/BLvfPVxF)
 
 **[Ports Search](https://github.com/venomlinux/ports/blob/3.0/scripts/ports.csv)**
 
