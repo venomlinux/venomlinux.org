@@ -248,7 +248,7 @@ $1 : pre-remove/post-remove
 $2 : old version
 ```
 
-An exmaple install script for `dbus`:
+An example install script for `dbus`:
 
 ```
 # package install script
