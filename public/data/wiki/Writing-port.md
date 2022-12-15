@@ -16,7 +16,7 @@ the source tarball is `https://projects.gw-computing.net/attachments/download/61
 
 ## Create local repository
 
-I reccommend creating a local repository, in your home directory.
+I recommend creating a local repository, in your home directory.
 
 ```
 $ mkdir myports
