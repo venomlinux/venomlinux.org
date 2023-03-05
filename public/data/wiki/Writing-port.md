@@ -16,7 +16,7 @@ the source tarball is `https://projects.gw-computing.net/attachments/download/61
 
 ## Create local repository
 
-I reccommend creating a local repository, in your home directory.
+I recommend creating a local repository, in your home directory.
 
 ```
 $ mkdir myports
@@ -248,7 +248,7 @@ $1 : pre-remove/post-remove
 $2 : old version
 ```
 
-An exmaple install script for `dbus`:
+An example install script for `dbus`:
 
 ```
 # package install script
