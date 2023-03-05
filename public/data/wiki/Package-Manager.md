@@ -4,48 +4,54 @@ Venom Linux use [scratchpkg](https://github.com/venomlinux/scratchpkg) as main p
 ## scratch
 Mostly user need to use `scratch` to manage packages.
 ```
-$ scratch help
+$ scratch help                                                                                                            
 Usage:
     scratch <options> [<arg>]
-
+    
 Options:
     install <ports> <arg>    install ports (use pkgbuild arg, except '-i' & '-u')
-                             -r|--reinstall   reinstall
-                             -n|--no-dep      skip dependencies
-                             -y|--yes         skip ask user permission
-                             --exclude=*      exclude dependencies, comma separated
+                             -r            reinstall
+                             -n            skip dependencies
+                             -y            skip ask user confirmation
+                             -o            fetch sources only
+                             --exclude=*   exclude dependencies, comma separated
 
     upgrade <ports> <arg>    upgrade ports (use pkgbuild arg, except '-i' & '-r')
-                             -n|--no-dep      skip dependencies
-                             -y|--yes         skip ask user permission
-                             --exclude=*      exclude dependencies, comma separated
+                             -n            skip dependencies
+                             -y            skip ask user confirmation
+                             -o            fetch sources only
+                             --exclude=*   exclude dependencies, comma separated
 
     remove  <ports> <arg>    remove installed ports (use pkgdel arg)
-                             -y|--yes         skip ask user permission
+                             -y            skip ask user confirmation
 
     sysup           <arg>    full system upgrade (use pkgbuild arg, except '-i', '-r'  & '-u')
-                             -n|--no-dep      skip dependencies
-                             -y|--yes         skip ask user permission
-                             --exclude=*      exclude dependencies, comma separated
+                             -n            skip dependencies
+                             -y            skip ask user confirmation
+                             -o            fetch sources only
+                             --exclude=*   exclude dependencies, comma separated
 
     deplist <ports>          print all dependencies for ports
-                             -q|--quick       skip installed ports
-                             --exclude=*      exclude dependencies, comma separated
+                             -q            skip installed ports
+                             --exclude=*   exclude dependencies, comma separated
 
     build   <ports> <arg>    build ports (use pkgbuild arg, except '-i', '-u', '-r', '-g', & '-p')
-                             --log            log build process (/var/log/pkgbuild.log)
+                             --log         log build process (/var/log/pkgbuild.log)
 
-    trigger   [ports]        run system trigger
-    search    <pattern>      find ports in repo
-    cat       <port>         print spkgbuild
-    depends   <port>         print dependencies
-    dependent <port>         print dependent
-    path      <port>         print path in repo
-    provide   <files>        print port's provided files
-    readme    <port>         print readme file, if exist
-    files     <port>         print files installed
-    info      <port>         print information
-    locate    <files>        print location of files in ports repo
+    trigger      [ports]     run system trigger
+    search       <pattern>   find ports in repo
+    cat          <port>      print spkgbuild
+    depends      <port>      print dependencies
+    dependent    <port>      print dependent
+    path         <port>      print path in repo
+    provide      <file>      print port's provided file
+    readme       <port>      print readme file, if exist
+    files        <port>      print files installed
+    info         <port>      print information
+    locate       <file>      print location of file in ports repo
+    isinstalled  <port>      check whether port is installed (status 0=installed, 1=not installed)
+    purge        [ports]     remove installed ports and its orphan dependencies
+    world        [ports]     print/add/remove world list
     sync                     update ports database
     outdate                  print outdated ports
     cache                    print and clear old pkg and src caches
@@ -55,7 +61,18 @@ Options:
     missingdep               print missing dependencies
     orphan                   print orphan installed ports
     foreign                  print foreign ports
+    printconfig <opts>       print scratchpkg configs
     help                     print this help msg
+
+Global options:
+    --append-repo=<repo path>       append custom local repo path (can use multiple times)
+    --prepend-repo=<repo path>      prepend custom local repo path (can use multiple times)
+    --override-repo=<repo path>     override repo in /etc/scratchpkg.repo with custom local repo (can use multiple times)
+    --repo-file=<repo file>         use custom repo file (default: /etc/scratchpkg.repo)
+    --config-file=<config file>     use custom config file (default: /etc/scratchpkg.conf)
+    --alias-file=<alias file>       use custom alias file (default: /etc/scratchpkg.alias)
+    --mask-file=<mask file>         use custom mask file (default: /etc/scratchpkg.mask)
+    --nocolor                       disable colour for output
 ```
 
 ## revdep
@@ -85,10 +102,11 @@ Repo directory is define in `/etc/scratchpkg.repo` with the `url` to fetch from.
 /usr/ports/myrepo
 
 # official venom repo
-/usr/ports/main       https://github.com/venomlinux/ports/tree/master/main
-/usr/ports/multilib   https://github.com/venomlinux/ports/tree/master/multilib
-/usr/ports/nonfree    https://github.com/venomlinux/ports/tree/master/nonfree
-#/usr/ports/testing    https://github.com/venomlinux/ports/tree/master/testing
+/usr/ports/core        https://github.com/venomlinux/ports/tree/4.0/core
+/usr/ports/main        https://github.com/venomlinux/ports/tree/repos/main
+/usr/ports/multilib    https://github.com/venomlinux/ports/tree/repos/multilib
+/usr/ports/nonfree     https://github.com/venomlinux/ports/tree/repos/nonfree
+#/usr/ports/testing    https://github.com/venomlinux/ports/tree/repos/testing
 ```
 repo order is matter, if theres duplicate ports exist within repos, ports in higher priority repo is used.
 
