@@ -103,6 +103,7 @@ Configure the bootloader, GNU `grub`:
 > Note: replace 'X' with your partition drive
 
 * EFI
+	* Install 'grub-efi' package
 ```
 # grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id="venomlinux"
 # grub-mkconfig -o /boot/grub/grub.cfg
