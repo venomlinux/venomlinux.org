@@ -18,5 +18,9 @@
     {
         "title": "Community Driven",
         "goal": "The Community is part of the process of building Venom"
+    },
+    {
+        "title": "Support sysvinit and runit",
+        "goal": "Its user's choice which init to use"
     }
 ]
