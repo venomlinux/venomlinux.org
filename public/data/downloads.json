@@ -5,13 +5,13 @@
             {
                 "download_type": "live_cd",
                 "page": "OSDN",
-                "url": "https://sourceforge.net/projects/venomlinux/files/20230510/",
+                "url": "https://osdn.net/projects/venomlinux/releases/78740",
                 "disabled": false
             },
             {
                 "download_type": "live_cd",
                 "page": "Sourceforge",
-                "url": "https://osdn.net/projects/venomlinux/releases/78740",
+                "url": "https://sourceforge.net/projects/venomlinux/files/20230510/",
                 "disabled": false
             },
             {
