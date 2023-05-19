@@ -102,7 +102,7 @@ Repo directory is define in `/etc/scratchpkg.repo` with the `url` to fetch from.
 /usr/ports/myrepo
 
 # official venom repo
-/usr/ports/core        https://github.com/venomlinux/ports/tree/4.0/core
+/usr/ports/core        https://github.com/venomlinux/ports/tree/repos/core
 /usr/ports/main        https://github.com/venomlinux/ports/tree/repos/main
 /usr/ports/multilib    https://github.com/venomlinux/ports/tree/repos/multilib
 /usr/ports/nonfree     https://github.com/venomlinux/ports/tree/repos/nonfree
