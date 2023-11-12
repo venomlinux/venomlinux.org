@@ -1,19 +1,14 @@
 [
     {
-        "version": "20230510",
+        "version": "rolling",
         "download_url": [
             {
                 "download_type": "live_cd",
-                "page": "OSDN",
-                "url": "https://osdn.net/projects/venomlinux/releases/78740",
+                "page": "Nextcloud",
+                "url": "https://nc.abetech.es/index.php/s/n96mosgP9p8dzEX",
                 "disabled": false
             },
-            {
-                "download_type": "live_cd",
-                "page": "Sourceforge",
-                "url": "https://sourceforge.net/projects/venomlinux/files/20230510/",
-                "disabled": false
-            },
+            
             {
                 "download_type": "rootfs",
                 "page": "Github",
